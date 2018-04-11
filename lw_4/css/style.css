@@ -14,15 +14,15 @@ p
 .main_block
 {
     margin: 0 auto;
-    margin-top: -205px;
+    margin-top: -207px;
     width: 900px;
     position: relative;
 }
 
 .navigation
 {
-    width: 50%;
     margin: auto;
+    width: 900px;
 }
 
 .navigation_link
@@ -69,6 +69,7 @@ p
     width: 330px;
     height: 350px;
     margin-bottom: 41px;
+    border-radius: 5px;
 }
 
 .title_block
@@ -105,18 +106,18 @@ p
     width: 330px;
 }
 
-
 .quotes
 {
     font: italic 28px/42px "Georgia";
     color: #ffffff;
-    padding-top: 50px;
+    padding-top: 42px;
     width: 430px;
 }
 
 .author
 {
     margin-top: 2px;
+    padding-left: 5px;
     font: 16px/42px "Open Sans", sans-serif;
     color: #ffffff;
     font-weight: 700;
@@ -136,7 +137,7 @@ p
     font-weight: bold;
     color: #333333;
     margin-bottom: 32px;
-    padding-top: 4px;
+    padding-top: 11px;
     width: 550px;
 }
 
