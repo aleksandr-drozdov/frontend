@@ -9,17 +9,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
   </head>
   <body>
-
     <div class="navigation">
       <a href="#about_me" class="navigation_link firsts"><i class="fas fa-user"></i> Обо мне</a>
       <a href="#hobby" class="navigation_link second"><i class="fas fa-heart"></i> Мое хобби</a>
       <a href="#films" class="navigation_link third"><i class="fas fa-video"></i> Любимые фильмы</a>
     </div>
-
     <div class="background">
-      <img src="images/background.png" alt="background_image" style="filter: contrast(0.3);width: 100%; height: 100%;">
+      <img src="images/background.png" alt="background_image" class="background">
     </div>
-
     <div class="main_block">
       <div class="left_block">
         <img src="images/masha_5.png" alt="face" class="photo" />
@@ -41,9 +38,9 @@
         </ol>
       </div>
       <div class="right_block">
-        <p class ="quotes">
+        <blockquote class ="quotes">
           Первый же час, давший нам жизнь, укоротил ее.
-        </p>
+        </blockquote>
         <p class="author">
           —Луций Анней Сенека
         </p>
@@ -64,47 +61,48 @@
         </div>
       </div>  
     </div>
-    
     <div class="favourite_films_block" id="films"> 
       <h2 class="favourite_films">
           Любимые фильмы
       </h2>
     </div> 
     <div class="films_block"> 
-      <div class="film">
+      <div class="film one">
         <img class="film_image" src="images/masha.jpg" alt="first-film">
         <h3>
           Маша и Медведь
         </h3>
-        <p>Маша — невероятно активная девочка, которая никогда не сидит на месте и считает, что весь мир создан для неё одной. Машина индивидуальность не знает границ, поэтому урок труда легко оборачивается строительством парусного корабля, а набор художника — в разукрашивание всего леса.</p>
+        <p>
+          Маша — невероятно активная девочка, которая никогда не сидит на месте и считает, что весь мир создан для неё одной. Машина индивидуальность не знает границ, поэтому урок труда легко оборачивается строительством парусного корабля, а набор художника — в разукрашивание всего леса.
+        </p>
       </div>
-      <div class="film one">
+      <div class="film">
         <img class="film_image" src="images/fix.jpg" alt="second-film">
         <h3>
           Фиксики
         </h3>
         <p>«А кто такие фиксики — большой-большой секрет!» — так поётся в песенке про фиксиков. До недавнего времени люди почти ничего не знали об этих маленьких человечках, которые живут внутри машин и приборов. Фиксики ухаживают за техникой изнутри, чистят её, смазывают, устраняют мелкие поломки.</p>
       </div>
-      <div class="film two">
+      <div class="film">
         <img class="film_image" src="images/lun.jpg" alt="third-film">
         <h3>
           Лунтик и его друзья
         </h3>
         <p>Приключения Лунтика, маленького пушистого существа, родившегося на Луне и свалившегося с неё на Землю.</p>
       </div>
-      <div class="film three">
+      <div class="film">
         <img class="film_image" src="images/jimmy.jpg" alt="fourth-film">
         <h3>
           Джимми Нейтрон
         </h3>
         <p>Пришельцы решили совершить массированный налет на мирный и благополучный Ретровилль! В то время, как Джимми развлекался в луна-парке со своими друзьями, инопланетяне обрушились с небес, похитив при этом родителей всех детишек!</p>
       </div>
+      <div class="clear"></div>
     </div>
 
-    <div class="allfilms_block">
+    <div class="allfilms_button">
             <a href="https://www.kinopoisk.ru" class="allfilms">Все фильмы</a>
     </div>
-    
     <div class="copyright">
       <p class="copyright_text">
         &#169; Дроздов Александр. Все права защищены
