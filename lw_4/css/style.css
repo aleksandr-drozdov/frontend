@@ -2,13 +2,13 @@ h3
 {
     padding-bottom: 14px;
     color: #304352;
-    font: 700 22px/ 32px "open sans";
+    font: bold 22px/ 32px "open sans";
 }
 
 p
 {
     color: #555555;
-    font: 19px/ 29px "georgia";
+    font: 16px/ 27px "georgia";
 }
 
 .background
@@ -208,7 +208,7 @@ p
 
 .films_block
 { 
-    width: 1240px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -231,8 +231,7 @@ p
 
 .film.one
 {
-    padding: 20px;
-    margin-top: -20px;
+    padding: 0;
 }
 
 .film_image
